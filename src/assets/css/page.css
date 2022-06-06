@@ -1,0 +1,109 @@
+:root {
+    --orange: #ffc08d;
+    --deepOrange: #61432e;
+    --navAct: #9f816b;
+    --bgWhite: #ffffff;
+    --bgList: #f9fbff;
+    --bgBlue: #edf1f2;
+    --font: #808080;
+    --bgContent: #ececec;
+    --bgNav: #3a3f51;
+    --deepGray: #cfcfcf;
+    --background: #ceddfc;
+    --fontBlue: #01aaed;
+    --lightGray: gainsboro;
+}
+
+body {
+    /* font-size: 62.5%; */
+    font-family: sans-serif;
+    background-color: var(--background);
+    padding: 0;
+    margin: 0;
+}
+
+p,
+span,
+ul,
+li,
+ol,
+div,
+a,
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+em {
+    font-style: normal;
+}
+
+
+/*去除input标签点击之后的出现的轮廓线*/
+
+input {
+    outline-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+button {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+.back_img {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.margin {
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
